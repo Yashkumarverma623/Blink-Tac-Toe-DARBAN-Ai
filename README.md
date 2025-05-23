@@ -30,6 +30,7 @@ A fun twist on classic Tic Tac Toe built for the **Frontend Developer Challenge*
 - **Emoji Category Selector** at game start
 - **Vanishing Emoji Logic** with position lockout
 - **GSAP Animated Intro** for a cool, dynamic start
+- **Framer Motion Transitions** on emoji placements and removals
 - **Winning Line Highlight** to visually celebrate victory
 - **Responsive UI** for desktop and mobile
 - **Game Rules Modal** to guide first-time players
@@ -37,21 +38,53 @@ A fun twist on classic Tic Tac Toe built for the **Frontend Developer Challenge*
 
 ---
 
+## 📁 Project Structure
 
+```
+src/
+├── assets/           # Images and emoji assets
+├── components/       # GameBoard, Cell, Header, Modal, etc.
+├── utils/            # Game logic and emoji handlers
+├── App.jsx           # Main application component
+├── main.jsx          # ReactDOM entry point
+└── index.css         # Tailwind and global styles
+```
 
+---
 
+## 🧠 Vanishing Feature Explained
 
+To maintain a maximum of 3 emojis per player on the board:
+- Emojis are tracked using a queue structure per player
+- When a 4th emoji is placed, the oldest (first-in) emoji is automatically removed
+- A restriction prevents placing a new emoji on the just-cleared spot
 
+---
 
-# React + Vite
+## 🤔 If I Had More Time...
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+With additional time, I would:
+- Add a **multiround score tracker**
+- Integrate **sound effects** for feedback
+- Let users **upload custom emojis or create their own categories**
+- Add **online multiplayer** capabilities
+- Improve **accessibility** (keyboard support and screen reader compatibility)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Submission Requirements
 
-## Expanding the ESLint configuration
+- ✅ GitHub Repo: [Blink-Tac-Toe-DARBAN-Ai](https://github.com/Yashkumarverma623/Blink-Tac-Toe-DARBAN-Ai)
+- ✅ Live Link: [https://blink-tic-toe-darban.netlify.app](https://blink-tic-toe-darban.netlify.app)
+- ✅ Detailed README
+- ✅ Commit history reflecting iterative development
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🙏 Special Thanks
+
+Thanks to **Darban.ai** for designing such a creative challenge! This project was a great opportunity to demonstrate frontend development, game logic, and playful design.
+
+---
+
+### 💬 Feedback is welcome! If you liked it, feel free to ⭐ this repo.
