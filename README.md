@@ -11,7 +11,6 @@ A fun twist on classic Tic Tac Toe built for the **Frontend Developer Challenge*
 - **React.js**
 - **Tailwind CSS**
 - **GSAP (GreenSock)** – for intro animations
-- **Framer Motion** – for smooth UI transitions
 - **Vite** – for fast builds and dev server
 
 ---
@@ -30,7 +29,6 @@ A fun twist on classic Tic Tac Toe built for the **Frontend Developer Challenge*
 - **Emoji Category Selector** at game start
 - **Vanishing Emoji Logic** with position lockout
 - **GSAP Animated Intro** for a cool, dynamic start
-- **Framer Motion Transitions** on emoji placements and removals
 - **Winning Line Highlight** to visually celebrate victory
 - **Responsive UI** for desktop and mobile
 - **Game Rules Modal** to guide first-time players
@@ -42,9 +40,7 @@ A fun twist on classic Tic Tac Toe built for the **Frontend Developer Challenge*
 
 ```
 src/
-├── assets/           # Images and emoji assets
 ├── components/       # GameBoard, Cell, Header, Modal, etc.
-├── utils/            # Game logic and emoji handlers
 ├── App.jsx           # Main application component
 ├── main.jsx          # ReactDOM entry point
 └── index.css         # Tailwind and global styles
@@ -72,12 +68,10 @@ With additional time, I would:
 
 ---
 
-## 📌 Submission Requirements
+## 📌 Links
 
 - ✅ GitHub Repo: [Blink-Tac-Toe-DARBAN-Ai](https://github.com/Yashkumarverma623/Blink-Tac-Toe-DARBAN-Ai)
 - ✅ Live Link: [https://blink-tic-toe-darban.netlify.app](https://blink-tic-toe-darban.netlify.app)
-- ✅ Detailed README
-- ✅ Commit history reflecting iterative development
 
 ---
 
